@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Clock App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="app.js">
+</head>
+<body>
+    <div class="clock">
+        <h2 class="clock-heading">Clock 1</h2>
+        <div class="clock-display">00:00<span class="clock-seconds">.0</span></div>
+        <div class="clock-controls">
+            <button onclick="startClock(1)">Start</button>
+            <button onclick="pauseClock(1)">Pause</button>
+            <button onclick="stopClock(1)">Stop</button>
+        </div>
+    </div>
+
+    <div class="clock">
+        <h2 class="clock-heading">Clock 2</h2>
+        <div class="clock-display">00:00<span class="clock-seconds">.0</span></div>
+        <div class="clock-controls">
+            <button onclick="startClock(2)">Start</button>
+            <button onclick="pauseClock(2)">Pause</button>
+            <button onclick="stopClock(2)">Stop</button>
+        </div>
+    </div>
+
+    <button onclick="stopAllClocks()">Stop All</butt
